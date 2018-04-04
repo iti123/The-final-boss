@@ -1,0 +1,804 @@
+body
+{
+    margin: 0px;
+    padding:0px;
+    font-family:'Gadugi';
+}
+@font-face {
+    font-family:'Gadugi';
+    src: url('font/Gadugi.eot');
+	src: url('font/Gadugi.eot?#iefix') format('embedded-opentype'),
+		url('font/Gadugi.woff2') format('woff2'),
+		url('font/Gadugi.woff') format('woff'),
+		url('font/Gadugi.svg#Gadugi') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;
+}
+/* Home Login and SignUp Page Start*/
+.mainheader
+{
+    background: #fbaf5d;
+    padding:15px 20px 15px 20px;
+    -webkit-box-shadow: 0px 10px 12px -5px rgba(179,179,179,1);
+    -moz-box-shadow: 0px 10px 12px -5px rgba(179,179,179,1);
+    box-shadow: 0px 10px 12px -5px rgba(179,179,179,1);
+}
+.mainheader-btn
+{
+    margin-top: 100px;
+}
+.login-icon
+{
+        border-right: 1px solid #e0e0e0;
+}
+.login-icon,
+.register-icon
+{
+    padding: 50px 0px 50px 0px;
+}
+.login-icon img,
+.register-icon img
+{
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+        
+}
+.btn-donut 
+{
+    width: 300px;
+    margin: 0px auto !important;
+    display: block;
+    margin: 1em;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    background: none;
+    color:#8781bd;  
+    font-weight: bold;
+    position: relative;
+    transition:color 0.25s ease;
+    border:2px solid #8781bd;
+    text-align: center;
+    border-radius: 5px;
+    font-weight:600;
+}
+
+.btn-donut:hover 
+{
+  color:white;
+  text-decoration:none; 
+}
+
+.btn-donut::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #8781bd;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  z-index:-1;
+}
+
+.btn-donut:hover::after {
+  width: 100%;
+}
+/* Home Login and SignUp Page Close*/
+.formsubmit-donut
+{
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 130px;
+    padding: 30px;
+    border-radius: 6px;
+    border: 1px solid #fbaf5d;
+}
+.formsubmit-donut input
+{
+    background: #ebebeb;
+    border: 1px solid #fff;
+    padding: 14px;
+    width: 100%;
+    border-radius: 6px;
+        font-size: 17px;
+        color: #403f3f;
+}
+.formsubmit-donut input:focus
+{
+    outline:none;
+}
+.formsubmit-donut label
+{
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.formsubmit-donut button[type="submit"]
+{
+    background: #00bff3;
+    width: 100%;
+    border: 0px;
+    padding: 12px 10px 12px 10px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.loginfield
+{
+margin-bottom: 20px;
+}
+.loginfield div:nth-child(2)
+{
+    color: #902626;
+}
+.formsubmit-donut.register
+{
+        margin-top:60px;
+}
+
+.banner-best-donuts
+{
+    background: url('http://design.demos.classicinformatics.com/boss/img/section-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+.banner-text
+{
+    width: 450px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.banner-text h2
+{
+    font-size:30px;
+    color: #fec342;
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
+}
+.banner-text p
+{
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+}
+.donuts-three
+{
+    background:#ebebeb;
+}
+.donuts-three-1
+{
+    padding: 30px;
+    border-right: 1px solid #dedede;
+}
+.donuts-three-2
+{
+    padding: 30px;
+    border-right: 1px solid #dedede;
+}
+.donuts-three-3
+{
+    padding: 30px;
+}
+.donuts-three h3
+{
+    margin: 0px;
+    padding: 0px;
+    color: #ffa241;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 26px;
+    min-height: 104px;
+    margin-bottom: 15px;
+}
+.donuts-three p
+{
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+}
+.main-footer
+{
+    padding:80px 0px 80px 0px;
+    clear: both;
+}
+.main-footer .footer-logo
+{
+    text-align:center; 
+    clear: both;
+    padding:80px 0px 0px 0px;
+}
+.main-footer .sectionfooter-2
+{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+.main-footer .sectionfooter-2 .leftsection
+{
+    float:left;
+}
+.main-footer .sectionfooter-2 .leftsection span
+{
+    color: #aca8a8;
+    font-size: 21px;
+    font-weight: bold;
+    width: 157px;
+    display: inline-block;
+}
+.main-footer .sectionfooter-2 .rightsection
+{
+    text-align: right;
+}
+.main-footer .sectionfooter-2 .rightsection a
+{
+        font-size: 23px;
+    color: #f3c620;
+    font-weight: bold;
+    clear: both;
+    display: block;
+}
+.main-footer .sectionfooter-2 .rightsection a:hover
+{
+    text-decoration: none;
+}
+.email-subscribe
+{
+    margin-top: 15px;
+    position:relative;
+    width: 300px;
+    float: right;
+}
+.email-subscribe input[type="email"]::-webkit-input-placeholder { /* Chrome */
+  color: #FFF
+}
+.email-subscribe input[type="email"]:-ms-input-placeholder { /* IE 10+ */
+  ccolor: #FFF
+}
+.email-subscribe input[type="email"]::-moz-placeholder { /* Firefox 19+ */
+ color: #FFF
+}
+.email-subscribe input[type="email"]:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #FFF
+}
+.email-subscribe input[type="email"]
+{
+    width: 100%;
+    background: #f06eaa;
+    border: 0px;
+    padding: 12px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+}
+.email-subscribe input[type="submit"]
+{
+    background: #fbaf5d;
+    border: 0px;
+    padding: 12px 15px 12px 15px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.email-subscribe input[type="submit"]:focus,
+.email-subscribe input[type="email"]:focus
+{
+    outline: none;
+}
+.container-donuts-create
+{
+    background: #bd8cbf;
+    padding:100px 0px 0px 0px;
+}
+.container-donuts-create-form
+{
+    width: 450px;
+    background: #440e62;
+    margin: 0px auto;
+    color: #FFF;
+    border-radius:25px;
+    padding: 40px;
+        position: relative;
+    top: 60px;
+}
+.container-donuts-create-form .heading-main
+{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+.container-donuts-create-form .heading-main-p
+{
+    text-align: center;
+    margin: 5px 0px 20px 0px;
+    font-size: 13px;
+}
+.container-donuts-create-form .select-donut
+{
+    font-size: 24px;
+    color: #ffffff;
+}
+ul.select-donut-list
+{
+    margin:0px;
+    padding:0px;
+    margin: 20px 0px 20px 0px;
+        text-align: center;
+}
+ul.select-donut-list li
+{
+    display: inline;
+    margin-right: 15px;
+}
+ul.select-donut-list li:last-child
+{
+     margin-right:0px;
+}
+ul.select-donut-list li img
+{
+    width: 100px;
+}
+.donuts-form button[type="submit"]
+{
+    background: #f26d7d;
+    width: 100%;
+    border: 0px;
+    padding: 12px 10px 12px 10px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.donuts-form input[type="text"],
+.donuts-form input[type="number"]
+{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 14px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.donuts-form input[type=number]::-webkit-inner-spin-button,
+.donuts-form input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.donuts-form input[type="number"]
+{
+    background:#fff url(http://design.demos.classicinformatics.com/boss/img/dollar-sign.png) no-repeat right;
+    background-position: 97% 14px;
+}
+.donuts-form input[type="text"]:focus,
+.donuts-form input[type="number"]:focus
+{
+    outline: none;
+}
+.donuts-form label
+{
+    display: none;
+}
+.donuts-form input[type="text"]::-webkit-input-placeholder,
+.donuts-form input[type="number"]::-webkit-input-placeholder 
+{ 
+  color: #000;
+}
+.donuts-form input[type="text"]::-webkit-input-placeholder,
+.donuts-form input[type="number"]::-webkit-input-placeholder
+{
+  color: #000;
+}
+.donuts-form input[type="text"]::-webkit-input-placeholder,
+.donuts-form input[type="number"]::-webkit-input-placeholder
+{
+ color: #000;
+}
+.donuts-form input[type="text"]::-webkit-input-placeholder,
+.donuts-form input[type="number"]::-webkit-input-placeholder
+{
+  color: #000;
+}
+.donuts-form
+{
+      margin-top: 30px;  
+}
+.donuts-form input[type="checkbox"]
+{
+    float: left;
+    margin-right: 10px;
+}
+.donuts-form label[for="uniforms-0000-0007"] {
+    display: block;
+    font-weight: 100;
+    float:left;
+    
+}
+@keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+  }
+}
+.radio-styling
+{
+    margin-top: 15px;
+    outline: none;
+}
+.radio-styling label
+{
+        font-size: 24px;
+    font-weight: 100;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+.radio-styling .option-input {
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 7.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:30px;
+  width:30px;
+  transition: all 0.15s ease-out 0s;
+  border: 4px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 15px;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.radio-styling .option-input:hover 
+{
+   border: 4px solid #fff;
+   outline: none;
+}
+.radio-styling .option-input:checked 
+{
+  background: #39b54a;
+  outline: none;
+}
+.radio-styling .option-input:checked::before 
+{
+      height: 30px;
+    width: 30px;
+    position: absolute;
+    content: '✔';
+    display: inline-block;
+    font-size: 30.66667px;
+    text-align: center;
+    line-height: 10px;
+    outline: none;
+}
+.radio-styling .option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+  outline: none;
+}
+.radio-styling .option-input.radio 
+{
+  border-radius: 50%;
+  outline: none;
+}
+.radio-styling .option-input.radio::after 
+{
+  border-radius: 50%;
+  outline: none;
+}
+.dount-listing ul
+{
+    padding:0px;
+    margin:0px;
+}
+.dount-listing ul li
+{
+    list-style: none;
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px;
+    background: #fff;
+    border-radius:35px;
+    display: inline-block;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.10);
+-moz-box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.10);
+box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.10);
+}
+.dount-listing ul li .imgaedount
+{
+    float: left;
+    margin-right: 30px;
+}
+.dount-listing ul li .imgaedount img
+{
+    width: 80px;
+}
+.dount-listing ul li .dount-text
+{
+    float: left;
+    padding-top: 7px;
+}
+.dount-listing ul li .dount-text span
+{
+    color:#403f3f;
+    font-size:25px;
+}
+.dount-listing ul li .dount-text p
+{
+    font-size:15px;
+    color:#7b7b7b;
+}
+.dount-listing ul li .dpunt-price
+{
+    float: right;
+    padding-top: 20px;
+}
+.dount-listing ul li .dpunt-price span
+{
+    font-size: 30px;
+    color: #004a80;
+    margin-right: 100px;
+    position: relative;
+}
+.dount-listing ul li .dpunt-price span:after
+{
+    background: url(http://design.demos.classicinformatics.com/boss/img/dollar-sign-BLUE.png) no-repeat;
+    content: '';
+    position: absolute;
+    right: -40px;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+}
+.dount-listing ul li .dount-editlisting
+{
+    float: right;  
+    padding-top: 20px;  
+}
+.dount-listing ul li .dount-editlisting a
+{
+    background: url(http://design.demos.classicinformatics.com/boss/img/edit-icon.png) no-repeat;
+        width: 35px;
+    height: 35px;
+    display: block;
+    background-size: cover;
+    text-indent: -9999px;
+    margin-right: 60px;
+}
+.dount-listing ul li .dount-removelisting
+{
+    float: right; 
+    padding-top: 18px; 
+}
+.dount-listing ul li .dount-removelisting a
+{
+    background: url(http://design.demos.classicinformatics.com/boss/img/delete-icon.png) no-repeat;
+        width: 35px;
+    height: 39px;
+    display: block;
+    background-size: cover;
+    text-indent: -9999px;
+    margin-right: 60px;
+}
+
+.dount-create a
+{
+    width: 200px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    background: #00bff3;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #FFF;
+}
+.dount-create a:hover
+{
+    text-decoration: none;    
+}
+
+@media (max-width:1024px)
+{
+    .main-footer .sectionfooter-2 .leftsection,
+    .main-footer .sectionfooter-2 .rightsection
+    {
+        float: left;
+    }
+    .main-footer .sectionfooter-2 .leftsection
+    {
+         padding-left: 30px;   
+    }
+    .login-icon
+    {
+        border: 0px;
+    }
+}
+@media (max-width:990px)
+{
+    .donuts-three h3
+    {
+            min-height:auto;
+    }
+    .donuts-three-1
+    {
+            border-right: 0px;
+            border-bottom: 1px solid #dedede;
+    }
+    .donuts-three-2
+    {
+            border-right: 0px;
+            border-bottom: 1px solid #dedede;
+    }
+}
+@media (max-width:767px)
+{
+    .main-footer .sectionfooter-2 .leftsection span
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .email-subscribe
+    {
+        float: none;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    .main-footer .sectionfooter-2 .rightsection
+    {
+        text-align: center;
+        margin-top:20px;
+            margin: 0px auto;
+    display: inherit;
+    float: none;
+    padding: 0px;
+    margin: 0px;
+    }
+    .main-footer .sectionfooter-2
+    {
+            width: 100%;
+    }
+    .banner-text 
+    {
+        width: 450px;
+        padding: 50px;
+        margin: 0px auto;
+        padding-top: 200px;
+    }
+    .main-footer .sectionfooter-2 .leftsection
+    {
+        padding:0px;
+    }
+    .dount-listing ul li .dpunt-price span
+    {
+            margin-right: 70px;
+            font-size: 20px;
+    }
+    .dount-listing ul li .dpunt-price span:after
+    {
+        right: -40px;
+        width: 20px;
+        height: 20px;
+        top: 4px;
+        background-size: contain;
+    }
+    .dount-listing ul li .dount-editlisting,
+    .dount-listing ul li .dount-removelisting
+    {
+            padding-top: 24px;
+    }
+    .dount-listing ul li .dount-editlisting a
+    {
+            width: 25px;
+            height: 25px;
+    }
+    .dount-listing ul li .dount-removelisting a
+    {
+            width: 25px;
+            height: 28px;
+    }
+    
+}
+@media (max-width:600px)
+{
+.dount-listing ul li .imgaedount
+{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.dount-listing ul li .dount-text {
+    float: none;
+    padding-top: 7px;
+    width: 100%;
+    text-align: center;
+}
+.dount-listing ul li .dpunt-price {
+    float: none;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.dount-listing ul li .dpunt-price span
+{
+    margin-right: 0px;
+}
+.dount-listing ul li .dount-editlisting
+{
+    width: 50%;
+    float: left;
+}
+.dount-listing ul li .dount-editlisting a
+{
+    margin: 0px auto;
+}
+.dount-listing ul li .dount-removelisting
+{
+    width: 50%;
+    float: left;
+}
+.dount-listing ul li .dount-removelisting a
+{
+        margin-right: 0px;
+    margin: 0px auto;
+}
+.banner-text
+{
+    width: 100%;
+}
+}
+@media (max-width:500px)
+{
+    .formsubmit-donut
+    {
+        width: 90%;
+        padding: 15px;
+            margin-top: 60px;
+    }
+    .container-donuts-create-form 
+    {
+        width: 90%;
+        padding: 20px;
+    }
+    ul.select-donut-list li img
+    {
+        width: 50px;
+    }
+}
